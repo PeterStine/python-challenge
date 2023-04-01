@@ -1,3 +1,8 @@
+# The cards below do not all completely register in Anki, needs debugging
+# 4/1/2023 - 10:33am
+# What if GPT-4 could be measured in the same way Anki measures statistics about a user?
+# What value would that hold?
+
 What is the syntax for importing a module in Python?;import module_name
 How to open a CSV file in read mode?;with open('file.csv', mode='r') as file:
 How to create a CSV reader object in Python?;import csv;with open('file.csv', mode='r') as file:;    reader = csv.reader(file)
@@ -13,11 +18,3 @@ How to calculate the average of a list of numbers in Python?;average = sum(list_
 How to find the maximum value in a list of numbers in Python?;max_value = max(list_name)
 How to find the minimum value in a list of numbers in Python?;min_value = min(list_name)
 How to write a list of strings to a text file in Python?;with open('output.txt', mode='w') as file:;    for line in list_of_strings:;        file.write(line + '\n')
-Python is a {{c1::high-level}} programming language;1️⃣;type:cloze
-Python was created by {{c1::Guido van Rossum}} in {{c1::1991}};2️⃣;type:cloze
-The language was named after the comedy group {{c1::Monty Python}};2️⃣;type:cloze
-In Python, you can use {{c1::list comprehensions}} to generate lists in a concise way;3️⃣;type:cloze
-The Python Package Index, or {{c1::PyPI}}, is a repository for Python software;3️⃣;type:cloze
-Python uses {{c1::indentation}} to determine the structure of a program;2️⃣;type:cloze
-{{c1::PEP}} stands for Python {{c1::Enhancement}} Proposal, a design document for the Python community;4️⃣;type:cloze
-{{c1::Zen of Python}} is a collection of 19 software design principles for the Python language;5️⃣;type:cloze

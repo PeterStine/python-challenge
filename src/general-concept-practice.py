@@ -15,3 +15,8 @@ with open('file.csv', mode='w') as file:
 # Open the file created in read-only mode
 with open('file.csv', mode='r') as file:
     print(file.readline())
+
+# Finding measures of central tendency on arrays
+numberedList = [1,2,3,4,5,6,7,8,9,80]
+max(numberedList)
+min(numberedList)
