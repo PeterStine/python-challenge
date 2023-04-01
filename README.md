@@ -7,9 +7,8 @@ PyBank and PyPoll App challenges. Each are in their own folder.
 It's time to put away the Excel sheet and enter the world of programming with Python. In this assignment, you'll use the concepts you've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
 
 ### Before You Begin
-Before starting the assignment, be sure to complete the following steps:
-
-Create a new repository for this project called python-challenge. Do not add this homework assignment to an existing repository.
+1. Before starting the assignment, be sure to complete the following steps:
+- Create a new repository for this project called python-challenge. Do not add this homework assignment to an existing repository.
 
 Clone the new repository to your computer.
 
@@ -47,32 +46,47 @@ The greatest decrease in profits (date and amount) over the entire period
 
 Your analysis should align with the following results:
 
-Financial Analysis
+### Financial Analysis
+
 ----------------------------
+```
 Total Months: 86
+
 Total: $22564198
+
 Average Change: $-8311.11
-Greatest Increase in Profits: Aug-16 ($1862002)
-Greatest Decrease in Profits: Feb-14 ($-1825558)
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+```
+
+### Greatest Increase in Profits: 
+```
+Aug-16 ($1862002)
+
+Greatest Decrease in Profits: 
+
+Feb-14 ($-1825558)
+```
+
+>In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
 
 PyPoll Instructions
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 
 You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
 
-The total number of votes cast
+- The total number of votes cast
 
-A complete list of candidates who received votes
+- A complete list of candidates who received votes
 
-The percentage of votes each candidate won
+- The percentage of votes each candidate won
 
-The total number of votes each candidate won
+- The total number of votes each candidate won
 
-The winner of the election based on popular vote
+- The winner of the election based on popular vote
 
 Your analysis should align with the following results:
 
+```
 Election Results
 -------------------------
 Total Votes: 369711
@@ -83,6 +97,8 @@ Raymon Anthony Doane: 3.139% (11606)
 -------------------------
 Winner: Diana DeGette
 -------------------------
+```
+
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 Hints and Considerations
@@ -95,38 +111,28 @@ Write one script for each of the provided datasets. Run each script separately t
 Always commit your work and back it up with pushes to GitHub or GitLab. You don't want to lose hours of your hard work! Also make sure that your repo has a detailed README.md file.
 
 Requirements
-Correctly Reads in the CSV (10 points)
-Reads in the CSVs for both PyBank and PyPoll using Python (5 points)
 
-Successfully stores the header row (5 points)
+### I. Preliminary
+1. Correctly Reads in the CSV (10 points)
+2. Reads in the CSVs for both PyBank and PyPoll using Python (5 points)
+3. Successfully stores the header row (5 points)
+4. Results Printed out to correctly to terminal (40 points)
 
-Results Printed out to correctly to terminal (40 points)
-### Results correctly display for PyBank:
+### II. Results correctly display for PyBank:
+1. Total Months (5 points)
+2. Total (5 points)
+3. Average Change (5 points)
+4. Greatest Increase (5 points)
+5. Greatest Decrease (5 points)
+6. Results correctly display for PyPoll:
+7. Total Votes (5 points)
+8. Each candidate’s total votes and percent of votes (5 points)
+9. Winner (5 points)
+10. Code Runs Error Free (10 points)
+11. Error Free (5 points)
+12. Producing consistent results (5 points)
+13. Exports results to text file (30 points)
 
-Total Months (5 points)
-
-Total (5 points)
-
-Average Change (5 points)
-
-Greatest Increase (5 points)
-
-Greatest Decrease (5 points)
-
-Results correctly display for PyPoll:
-
-Total Votes (5 points)
-
-Each candidate’s total votes and percent of votes (5 points)
-
-Winner (5 points)
-
-Code Runs Error Free (10 points)
-Error Free (5 points)
-
-Producing consistent results (5 points)
-
-Exports results to text file (30 points)
 The text file contains for PyBank:
 
 Total Months (2.5 points)
