@@ -11,3 +11,7 @@ import csv
 # Create a file to be read in later.
 with open('file.csv', mode='w') as file:
     file.writelines("Test line")
+
+# Open the file created in read-only mode
+with open('file.csv', mode='r') as file:
+    print(file.readline())
