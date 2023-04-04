@@ -3,18 +3,18 @@
 # What if GPT-4 could be measured in the same way Anki measures statistics about a user?
 # What value would that hold?
 
-What is the syntax for importing a module in Python?;import module_name
-How to open a CSV file in read mode?;with open('file.csv', mode='r') as file:
-How to create a CSV reader object in Python?;import csv;with open('file.csv', mode='r') as file:;    reader = csv.reader(file)
-How to skip the header row of a CSV file using Python?;import csv;with open('file.csv', mode='r') as file:;    reader = csv.reader(file);    header = next(reader)
-How to loop through the rows of a CSV file in Python?;import csv;with open('file.csv', mode='r') as file:;    reader = csv.reader(file);    for row in reader:;        print(row)
-How to define a function in Python?;def function_name(arguments):;    # function code here
-How to use a for loop with a range in Python?;for i in range(start, end, step):;    # loop code here
-How to initialize a variable with an empty list in Python?;empty_list = []
-How to append an item to a list in Python?;list_name.append(item)
-How to calculate the length of a list in Python?;len(list_name)
-How to calculate the sum of a list of numbers in Python?;sum(list_name)
-How to calculate the average of a list of numbers in Python?;average = sum(list_name) / len(list_name)
-How to find the maximum value in a list of numbers in Python?;max_value = max(list_name)
-How to find the minimum value in a list of numbers in Python?;min_value = min(list_name)
-How to write a list of strings to a text file in Python?;with open('output.txt', mode='w') as file:;    for line in list_of_strings:;        file.write(line + '\n')
+What is the syntax for importing a module in Python?;"import module_name"
+How to open a CSV file in read mode?;"with open('file.csv', mode='r') as file:"
+How to create a CSV reader object in Python?;"import csv with open('file.csv', mode='r') as file:;    reader = csv.reader(file)"
+How to skip the header row of a CSV file using Python?;"import csv;with open('file.csv', mode='r') as file:;    reader = csv.reader(file);    header = next(reader)"
+How to loop through the rows of a CSV file in Python?;"import csv;with open('file.csv', mode='r') as file:;    reader = csv.reader(file);    for row in reader:;        print(row)"
+How to define a function in Python?;"def function_name(arguments):;    # function code here"
+How to use a for loop with a range in Python?;"for i in range(start, end, step):;    # loop code here"
+How to initialize a variable with an empty list in Python?;"empty_list = []"
+How to append an item to a list in Python?;"list_name.append(item)"
+How to calculate the length of a list in Python?;"len(list_name)"
+How to calculate the sum of a list of numbers in Python?;"sum(list_name)"
+How to calculate the average of a list of numbers in Python?;"average = sum(list_name) / len(list_name)"
+How to find the maximum value in a list of numbers in Python?;"max_value = max(list_name)"
+How to find the minimum value in a list of numbers in Python?;"min_value = min(list_name)"
+How to write a list of strings to a text file in Python?;"with open('output.txt', mode='w') as file:;    for line in list_of_strings:;        file.write(line + '\n')"
